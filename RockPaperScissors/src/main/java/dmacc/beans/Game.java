@@ -104,7 +104,7 @@ public class Game {
 			}
 		}
 		
-		this.winner = gameWinner;
+		this.winner= gameWinner;
 		
 		
 	    
