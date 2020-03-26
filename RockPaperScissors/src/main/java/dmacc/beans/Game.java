@@ -22,6 +22,7 @@ public class Game {
 	//generates random number and assigns computer choice
 	public void setComputerPlayerToRandom()
 	{
+		int x = (int) ((Math.random()*((5-1)+1))+1);
 		if (x==1) this.computerPlayer = "rock";
 		if (x==2) this.computerPlayer = "paper";
 		if (x==3) this.computerPlayer = "scissors";
