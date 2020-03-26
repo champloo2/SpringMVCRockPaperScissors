@@ -19,6 +19,8 @@ public class Game {
 		this.determineWinner();
 		}
 	
+	
+	
 	//generates random number and assigns computer choice
 	public void setComputerPlayerToRandom()
 	{
@@ -30,12 +32,12 @@ public class Game {
 		if (x==5) this.computerPlayer = "spock";
 	}
 	
-	
+
 	public void determineWinner()
 	{
 		String computerPlayer = this.computerPlayer;
 		String player1 = this.player1;
-		String gameWinner = "tie";
+		String gameWinner = this.winner;
 		
 		if (player1 == "rock")
 		{
