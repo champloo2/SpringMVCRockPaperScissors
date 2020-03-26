@@ -17,7 +17,7 @@ public class WebController {
 			return "index";
 			}
 		Game theOutcome = new Game(theChoice);
-		model.addAttribute("game", theOutcome);
+		model.addAttribute("thegame", theOutcome);
 		return "results";
 	}
 

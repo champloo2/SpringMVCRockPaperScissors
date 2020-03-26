@@ -7,9 +7,9 @@ import lombok.NoArgsConstructor;
 public class Game {
 	
 
-	private String player1;
-	private String computerPlayer;
-	private String winner;
+	public String player1;
+	public String computerPlayer;
+	public String winner;
 	
 	//takes in user choice, generates a computer choice determins winner
 	public Game(String player1) {
