@@ -39,7 +39,7 @@ public class Game {
 		String player1 = this.player1;
 		String gameWinner = this.winner;
 		
-		if (player1 == "rock")
+		if (player1.equals("rock"))
 		{
 			switch (computerPlayer)
 			{
@@ -52,7 +52,7 @@ public class Game {
 			}
 		}
 		
-		else if (player1 == "paper")
+		else if (player1.equals("paper"))
 		{
 			switch (computerPlayer)
 			{
@@ -65,7 +65,7 @@ public class Game {
 			}
 		}
 		
-		else if (player1 == "scissors")
+		else if (player1.equals("scissors"))
 		{
 			switch (computerPlayer)
 			{
@@ -77,7 +77,7 @@ public class Game {
 			
 			}
 		}
-		else if (player1 == "lizard")
+		else if (player1.equals("lizard"))
 		{
 			switch (computerPlayer)
 			{
@@ -91,7 +91,7 @@ public class Game {
 		}
 		
 		//player1 == spock
-		else 
+		else if (player1.equals("spock"))
 		{
 			switch (computerPlayer)
 			{
@@ -103,6 +103,7 @@ public class Game {
 			
 			}
 		}
+		else gameWinner = "tie";
 		
 		this.winner= gameWinner;
 		
